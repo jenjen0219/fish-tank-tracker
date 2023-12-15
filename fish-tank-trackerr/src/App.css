@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blue;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
 }
 
@@ -32,7 +32,45 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  padding: 1em;
+  padding-left: 3em;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(40, 150, 165);
+  color: white;
+}
+
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(40, 150, 165);
+  color: white;
+}
+
+.tab {
+  padding: 1em;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+
+}
+
+.tab:hover {
+  border-bottom: 2px solid white;
+}
+
+.mainBtn {
+  padding-right: 4em;
 }

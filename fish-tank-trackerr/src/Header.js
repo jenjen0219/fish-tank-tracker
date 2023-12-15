@@ -1,23 +1,21 @@
 import './App.css';
 
 function Header() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div >
+            <header className="header">
+                <p className="mainBtn">
+                    Fish Tank Tracker
+                </p>
+                <ul className="tabs">
+                    <li className="tab"> Home </li>
+                    <li className="tab"> Fish Tracker </li>
+                    <li className="tab"> Tank Cleaning Log </li>
+                    <li className="tab"> Account </li>
+                </ul>
+            </header>
+        </div>
+    );
 }
 
 export default Header;
