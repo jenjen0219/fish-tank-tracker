@@ -1,4 +1,7 @@
 import './App.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
     return (
@@ -7,12 +10,14 @@ function Header() {
                 <p className="mainBtn">
                     Fish Tank Tracker
                 </p>
-                <ul className="tabs">
-                    <li className="tab"> Home </li>
-                    <li className="tab"> Fish Tracker </li>
-                    <li className="tab"> Tank Cleaning Log </li>
-                    <li className="tab"> Account </li>
-                </ul>
+                <nav>
+                    <ul className="tabs">
+                        <li className="tab"> <Link to="/"> Main </Link> </li>
+                        <li className="tab"> Fish Tracker </li>
+                        <li className="tab"> <Link to="/tankCleaningLogPage">Tank Cleaning Log</Link> </li>
+                        <li className="tab"> Account </li>
+                    </ul>
+                </nav>
             </header>
         </div>
     );
