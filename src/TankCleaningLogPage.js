@@ -1,4 +1,4 @@
-import './Main.css';
+import './TankCleaningLogPage.css';
 import React from 'react';
 
 
@@ -6,7 +6,7 @@ import React from 'react';
 function TankCleaningLogPage() {
     return (
         <div>
-            <h1 className="testing">This is the tank cleaning page</h1>
+            <h1 >Tank Cleaning Log</h1>
 
 
         </div>
