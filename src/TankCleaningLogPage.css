@@ -1,3 +1,80 @@
 h1 {
-    padding: 10px;
+    padding: 7px;
+    border:0px;
+    margin:15px;
 }
+
+.column{
+ display:flex;
+ flex-direction:column;   
+ 
+ width:30%;
+ padding:0% 2% 2% 2% ;
+}
+
+.columnForever{
+    display:table;   
+    
+    width:20%;
+    padding:0% 2% 2% 2% ;
+   }
+.row{
+ float:left;
+
+}
+
+.content{
+    display:flexbox ;
+    justify-content: center;
+}
+
+.shortText{
+    width:25px;
+    text-align: center;
+    height: 25px;
+}
+/* Styling for the react-datepicker */
+.react-datepicker {
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    background-color: #36b8e0;
+
+  }
+  
+  .react-datepicker__header {
+    background-color: #36b8e0;
+    color: #fff;
+  }
+  
+  .react-datepicker__day-names {
+    display: flex;
+  }
+  
+  .react-datepicker__day-name {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .react-datepicker__month {
+    margin: 0;
+  }
+  
+  .react-datepicker__day {
+    flex: 1;
+    /* padding: 10px; */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #36b8e0;
+    color: #fff;
+  }
+  
+  .react-datepicker__day--keyboard-selected {
+    background-color: #36b8e0;
+    color: #fff;
+  }
